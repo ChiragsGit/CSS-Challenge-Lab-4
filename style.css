@@ -1,0 +1,51 @@
+li:nth-child(odd) {
+    font-weight: bold;
+}
+
+.wrapper {
+    background-color: #1E3640;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+/* *:not(p) {    this was for lab  1
+    color: #333;
+} */
+
+.container {
+    width: 300px;
+    overflow: hidden;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    filter: opacity(0.9);
+    filter: grayscale(1);
+    margin: 0 auto;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+body {
+    background-image: url(./img/simom-caban-ZKrEJMhEsr8-unsplash.jpg);
+    color: white;
+    background-position: center;
+    background-repeat: none;
+    background-position: center;
+}
+
+img:hover {
+    transform: scaleX(-1);
+}
